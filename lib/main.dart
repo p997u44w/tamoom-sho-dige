@@ -41,7 +41,7 @@ class NexaApp extends StatelessWidget {
               secondary: theme.secondary,
               brightness: Brightness.dark,
             ),
-            appBarTheme: const AppBarTheme(
+            appBarTheme: AppBarTheme(
               backgroundColor: NexaTokens.bgDeep.withOpacity(0.92),
               surfaceTintColor: Colors.transparent,
               elevation: 0,

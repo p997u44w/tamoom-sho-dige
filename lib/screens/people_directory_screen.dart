@@ -79,7 +79,7 @@ class _PeopleDirectoryScreenState extends State<PeopleDirectoryScreen> {
   List<Widget> _buildDirectory() {
     // After school/people, schools is normalized to entries containing school/teachers/students.
     if (schools.isEmpty || schools.first is! Map || schools.first['school'] == null) {
-      return [const Card(child: Padding(padding: EdgeInsets.all(20), child: Text('اطلاعاتی برای نمایش وجود ندارد'))];
+      return [const Card(child: Padding(padding: EdgeInsets.all(20), child: Text('اطلاعاتی برای نمایش وجود ندارد')))];
     }
     final result = <Widget>[];
     for (final block in schools) {
